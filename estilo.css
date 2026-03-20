@@ -1,0 +1,260 @@
+* {
+  font-family: 'Source Sans Pro', sans-serif;
+  margin: 0;
+ box-sizing: border-box;
+
+}
+.topo {
+    width: 100%;
+    position: fixed;
+    background-color: #fff;
+}
+
+.topo-secao {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 20px;
+  color: #3d3d3d;
+}
+
+.limite-secao {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.container-logotipo {
+  flex: 1 0 60%;
+}
+
+.container-logotipo a {
+  font-size: 24px;
+  text-decoration: none;
+  color: #3d3d3d;
+}
+
+.container-logotipo span {
+  color: #6592c9;
+}
+
+.container-links {
+  flex: 1 0 150px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.link-topo {
+  text-decoration: none;
+  color: #3d3d3d;
+}
+.conteudo {
+    background-image: url(../img/img-fundo.jpg);
+    width: 100%;
+    height: 100vh;
+    padding: 0 20px;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.conteudo-pousada {
+    background-color: rgba(23, 109, 65, 0.5);
+    padding: 40px 50px;
+    border: 2px solid;
+    border-radius: 10px;
+    color: white;
+    justify-content: center;
+}
+
+.conteudo-pousada p {
+    font-size: 22px;
+}
+
+.conteudo2 {
+  padding: 30px;
+  text-align: center;
+  color: gray;
+  justify-content: column;
+  
+}
+
+.conteudo2 h1 {
+    margin-bottom: 20px;
+    text-shadow: 5px 5px 15px rgba(0,0,0,0.5);
+}
+
+.conteudo2 p {
+    margin-top: 10px;
+    text-shadow: 5px 5px 15px rgba(0,0,0,0.5);
+}
+
+.Quartos, .quarto img{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.quarto {
+    text-align: center;
+     display: flex;
+    flex-direction: column;  
+    align-items: center;     
+    text-align: center;
+}
+
+.quarto img{
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.linha{
+    width: 100%;
+    height: 3px;
+    background-color: #2e8b8b;
+    margin-top: 10px;
+}
+
+.quarto a {
+    text-decoration: none;
+    color: gray;         
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.Rota {
+  text-align: center;
+  color: gray;
+  justify-content: column;
+}
+
+.Rota h1 {
+    padding-top: 40px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    text-shadow: 5px 5px 15px rgba(0,0,0,0.5);
+}
+
+.Rota p {
+    margin-top: 30px;
+    text-shadow: 5px 5px 15px rgba(0,0,0,0.5);
+    padding-bottom: 40px;
+}
+
+.rota2 {
+    width: 100%;
+    margin-top: 10px;
+    height: 500px; 
+}
+
+.Sobre h1, .Sobre > p {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    text-shadow: 5px 5px 15px rgba(0,0,0,0.5);
+    text-align: center;
+    color: gray;
+}
+
+.sobre-pousada {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 40px;
+    padding: 20px;
+}
+
+.sobre-pousada > div {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 15px;
+    text-align: left; 
+
+    min-width: 300px;
+    width: 45%;
+}
+
+.sobre-pousada h3 {
+    margin-top: 0;
+    color: #333;
+}
+
+.sobre-pousada p {
+    color: #666;
+    font-size: 14px;
+    line-height: 1.4;
+    text-shadow: none; 
+    text-align: left;
+}
+
+.sobre-pousada img {
+    width: 150px;
+    height: 100px;
+    object-fit: cover; 
+    border-radius: 5px;
+}
+
+.Rodape {
+    background-color: #4b9372; 
+    color: white;
+    padding: 20px 5%;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+
+.rodape-conteudo {
+    width: 100%;
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-bottom: 20px;
+}
+
+.item-rodape {
+    display: flex;
+    align-items: center; 
+    gap: 10px;
+    max-width: 250px;
+}
+
+.item-rodape img {
+    width: 30px; 
+    height: auto;
+}
+
+.item-rodape a, .item-rodape p, .item-rodape h4 {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0;
+}
+
+
+.linha-divisora {
+    width: 90%;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.2); 
+    margin-bottom: 15px;
+}
+
+.copyright p {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0;
+}
+
+
+
