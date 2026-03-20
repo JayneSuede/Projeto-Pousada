@@ -52,7 +52,7 @@
 }
 
 .conteudo-imagem-fundo {
-    background-image: url(../img/img-fundo.jpg);
+    background-image: url(img-fundo.jpg);
     width: 100%;
     height: 40vh;
     padding: 0 10px;
